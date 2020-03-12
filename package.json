@@ -1,19 +1,22 @@
 {
-  "homepage": "http://ELITA04.github.io/",
+  "homepage" : "https://EMenezes04.github.io/webiste",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.5.0",
+    "node": "11.6.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

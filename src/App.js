@@ -1,4 +1,5 @@
 import React , { Component } from 'react';
+import { HashRouter, Route, Link } from 'react-router-dom'; 
 import Header from './components/header/header';
 import About from './components/about/about';
 import Intro from './components/intro/intro';
