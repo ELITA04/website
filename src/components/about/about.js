@@ -27,7 +27,7 @@ export default class About extends Component{
                 </li>
                 <li>
                   <strong>Website:</strong>
-                  <span>https://elita04.github.io</span>
+                  <span>https://elita04.github.io/website</span>
                 </li>
                 <li>
                   <strong>Email:</strong>
