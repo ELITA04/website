@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color:  white;
+  color : #313131;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Quicksand';
+  padding-top: 2%;
+  word-wrap: break-word;
+}
+
+.array-container{
+  margin: 0 20px;
+}
+
+.array-bar{
+  width: 4px;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.Button-design{
+  background-color: #313131;
+  color : white;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.Button{
+  padding-right: 10px;
+  border: none;
+  padding-left: 10px;
+  background: none;
+  color:white;
+}

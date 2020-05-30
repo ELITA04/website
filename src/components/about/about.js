@@ -35,6 +35,7 @@ export default class About extends Component{
                 </li>
               </ul> 
             </div>
+            
             <div className="col-six tab-full">
               <h3>Skills</h3>
 
@@ -85,6 +86,7 @@ export default class About extends Component{
               <a href={Pdf} title="Download CV" className="button button-primary" download>Download CV</a>
             </div>   		
           </div>
+
         </section> 
       );
     }

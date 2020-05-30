@@ -1,20 +1,14 @@
-import React , { Component } from 'react';
-import { HashRouter, Route, Link } from 'react-router-dom'; 
-import About from './components/about/about';
-import Intro from './components/intro/intro';
-import Portfolio from './components/portfolio/portfolio';
-import Resume from './components/resume/resume';
-import './App.css';
+import React, { Component } from 'react';
+import { Route } from "react-router-dom";
+import Final  from './components/final';
+import Sorting from './components/Sorting';
 
-class App extends Component{
+class App extends Component {
   render() {
     return (
-      <div className='App'>
-
-        <Intro />
-        <About />
-        <Resume />
-        <Portfolio />
+      <div>
+        <Route exact path="/" component={Final} />
+        <Route  path="/SortingVisualizer" component={Sorting} />
       </div>
     );
   }

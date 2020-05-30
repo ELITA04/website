@@ -6,6 +6,38 @@ export default class Portfolio extends Component{
         <section id="portfolio">
           <div className="row section-intro">
             <div className="col-twelve">
+              <h5>Achievements</h5>
+            </div>   		
+          </div> 
+          <div className="col-twelve">
+          <div id="modal-01" className="popup-modal slider mfp-hide">	
+            <div className="description-box">
+              <h4>Team Vaayushastra stood 9th in the SAE Aero Design Competition held in The USA.</h4>		     
+              <p>Design an Unmanned Ariel Vehicle to colonise Mars</p>
+            </div>
+            </div>
+            <div id="modal-02" className="popup-modal slider mfp-hide">	
+            <div className="description-box">
+              <h4>Winner of SPIT hackathon - February 2020</h4>		     
+              <p>Malware detection using machine learning</p>
+            </div>	
+            </div>
+            <div id="modal-03" className="popup-modal slider mfp-hide">	
+            <div className="description-box">
+              <h4>First runner up of DMCE hackathon - January 2020</h4>		     
+              <p>Using CBT techniques and AI to diagnose/track/tackle mental health issues</p>
+            </div>	
+            </div>
+            <div id="modal-04" className="popup-modal slider mfp-hide">	
+            <div className="description-box">
+              <h4>Winner of VCET hackathon - December 2020</h4>		     
+              <p>Depression tracking using social media (twitter)</p>
+            </div>	
+            </div>
+          </div>
+            
+          <div className="row section-intro">
+            <div className="col-twelve">
               <h5>Portfolio</h5>
               <h1>Check Out Some of My Works.</h1>
             </div>   		
