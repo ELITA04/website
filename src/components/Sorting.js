@@ -29,7 +29,7 @@ export default class Sorting extends React.Component{
     }
 
     resetArray(){
-        console.log(this.resetArray);
+        
         const array = [];
         for(let i=0; i < NUMBER_OF_BARS; i++){
             array.push(randomInteger(25, 500));
@@ -50,7 +50,7 @@ export default class Sorting extends React.Component{
             //just change this to given algo
             const quickSort = QuickSortTest(array);
             const javaScriptSort = array.slice().sort((a, b) => a - b);
-            console.log(arrayEqual(javaScriptSort, quickSort));
+            
         }
     }
 
@@ -89,7 +89,6 @@ export default class Sorting extends React.Component{
             const[tag, barIdxOne, barIdxTwo] = currentAnimation;
             const color = (tag === "Comparision1") ? SECONDARY_COLOR : PRIMARY_COLOR;
             setTimeout(() => {
-                console.log(tag);
                 const barIdxOneStyle = arrayBars[barIdxOne].style;
                 const barIdxTwoStyle = arrayBars[barIdxTwo].style;
                 barIdxOneStyle.backgroundColor = color;
