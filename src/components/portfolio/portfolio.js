@@ -36,8 +36,10 @@ export default class Portfolio extends Component{
             <div className="col-twelve">
             
               <div className="description-box">
-                <h4>Corona Live Updates Bot</h4>		      
+                <h4>Corona Live Updates Bot</h4>	
+                <a href = "https://t.me/corona_em_bot" style={{cursor: 'pointer'}}>Check it out</a>	      
                 <p>A telegram bot which provides updates about cases in Indian states and districts.It also provides news updates from the WHO website and precautions to be taken during the pandemic.</p>	               
+                
               </div>	
             
               <div className="description-box">
@@ -46,8 +48,10 @@ export default class Portfolio extends Component{
               </div>	      
           
             <div className="description-box">
-                <h4>Sorting Algorithm Visualizer</h4>		      
+                <h4>Sorting Algorithm Visualizer</h4>		   
+                <a href = "https://elita04.github.io/website/#/SortingVisualizer" style={{cursor: 'pointer'}}>Check it out</a>   
                 <p>A react application that helps visualizing the different sorting algorithms (Quick sort, Merge Sort, Bubble Sort, Selection Sort, Insertion Sort)</p>
+                
               </div> 
             
               <div className="description-box">
