@@ -22,6 +22,24 @@ export default class Resume extends Component{
                     <i className="fa fa-file-code-o" />
                   </div>
                   <div className="timeline-header">
+                    <h3>Machine Learning Intern  </h3>
+                    <p>March 2020 - Present</p>
+                  </div>
+                  <div className="timeline-content">
+                    <h4>Cloud Counselage</h4>
+                    <p>Currently working on Color Classifier using Tensorflow2.0 as part of training. (Main project begins in June)</p>
+                  </div>
+                </div> 
+               
+              </div>  			
+            </div>
+            <div className="col-twelve">
+              <div className="timeline-wrap">
+                <div className="timeline-block">
+                  <div className="timeline-ico">
+                    <i className="fa fa-file-code-o" />
+                  </div>
+                  <div className="timeline-header">
                     <h3>Internship and Training Placement Website </h3>
                     <p>December 2019 - February 2020</p>
                   </div>

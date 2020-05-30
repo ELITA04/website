@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Pdf from '../../assets/ElitaMenezes.pdf';
+
 export default class About extends Component{
     render() {
       return (
@@ -8,17 +10,12 @@ export default class About extends Component{
             <div className="col-twelve">
               <h5>About</h5>
               <h1>Let me introduce myself.</h1>
-              {/* <div className="intro-info">
-                <img src="images/profile.jpg" alt="Profile Picture" />
-                <p className="lead">The name's <strong>Elita Menezes</strong>. I am an introvert but I love talking to people about geeky stuff. I enjoy trying out new food (be it restaurants or small shops), running and coding. I am a tireless seeker of knowledge and a occasional purveyor of wisdom too.</p>
-              </div>   			 */}
-
             </div>   		
-          </div> {/* /section-intro */}
+          </div> 
           <div className="row about-content">
             <div className="col-six tab-full">
               <h3>Profile</h3>
-              <p>I am currently in the Third Year of Computer Engineering in Fr. Conceicao Rodrigues College of Engineering. I stood first in the first 2 years of Engineering. Also I'm the GUI head of Team Vaayushastra, We DREAM BUILD FLY! </p>
+              <p>I am currently in the Third Year of Computer Engineering in Fr. Conceicao Rodrigues College of Engineering. I stood first in the first 2 years of Engineering. Also I'm the GUI head of Team Vaayushastra, We DREAM BUILD FLY!.</p>
               <ul className="info-list">
                 <li>
                   <strong>Fullname:</strong>
@@ -30,17 +27,17 @@ export default class About extends Component{
                 </li>
                 <li>
                   <strong>Website:</strong>
-                  <span>www.kardswebsite.com</span>
+                  <span>https://elita04.github.io</span>
                 </li>
                 <li>
                   <strong>Email:</strong>
                   <span>elitae.menezes@gmail.com</span>
                 </li>
-              </ul> {/* /info-list */}
+              </ul> 
             </div>
             <div className="col-six tab-full">
               <h3>Skills</h3>
-              {/* <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p> */}
+
               <ul className="skill-bars">
                 <li>
                   <div className="progress percent90"><span>90%</span></div>
@@ -84,8 +81,8 @@ export default class About extends Component{
           </div>
           <div className="row button-section">
             <div className="col-twelve">
-              {/* <a href="#contact" title="Hire Me" className="button stroke smoothscroll">Hire Me</a> */}
-              <a href="/ElitaMenezes.pdf" title="Download CV" className="button button-primary" download>Download CV</a>
+
+              <a href={Pdf} title="Download CV" className="button button-primary" download>Download CV</a>
             </div>   		
           </div>
         </section> 
