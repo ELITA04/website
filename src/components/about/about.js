@@ -15,7 +15,8 @@ export default class About extends Component{
           <div className="row about-content">
             <div className="col-six tab-full">
               <h3>Profile</h3>
-              <p>I am currently in the Third Year of Computer Engineering in Fr. Conceicao Rodrigues College of Engineering. I stood first in the first 2 years of Engineering. Also I'm the GUI head of Team Vaayushastra, We DREAM BUILD FLY!.</p>
+              <p>I am currently in the Third Year of Computer Engineering in Fr. Conceicao Rodrigues College of Engineering. I stood first in the first 2 years of Engineering. Also I'm the GUI head of Team Vaayushastra, We DREAM BUILD FLY!</p>
+              
               <ul className="info-list">
                 <li>
                   <strong>Fullname:</strong>
@@ -53,7 +54,7 @@ export default class About extends Component{
                   <strong>JQuery</strong>
                 </li>
                 <li>
-                  <div className="progress percent95"><span>95%</span></div>
+                  <div className="progress percent75"><span>75%</span></div>
                   <strong>PHP</strong>
                 </li>
                 <li>

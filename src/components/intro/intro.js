@@ -12,7 +12,10 @@ export default class Intro extends Component{
                 <h5>Hello, World.</h5>
                 <h1>I'm Elita Menezes.</h1>
                 <p className="intro-position">
-                  <span>Full stack developer</span> 
+                  <span>AI/ML Enthusiast</span>
+                </p>
+                <p className="intro-position">
+                  <span>Full Stack Developer</span>
                 </p>
               </div>  
             </div>   		 		
