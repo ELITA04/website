@@ -15,7 +15,7 @@ export default class About extends Component{
           <div className="row about-content">
             <div className="col-six tab-full">
               <h3>Profile</h3>
-              <p>I am currently in the Third Year of Computer Engineering in Fr. Conceicao Rodrigues College of Engineering. I stood first in the first 2 years of Engineering. Also I'm the GUI head of Team Vaayushastra, We DREAM BUILD FLY!</p>
+              <p>I am an overly passionate girl who can work well under pressure. I enjoy healthy competitions and strive to do my best. Currently, I am in the Fourth Year of Computer Engineering at Fr. Conceicao Rodrigues College of Engineering.</p>
               
               <ul className="info-list">
                 <li>
@@ -41,6 +41,19 @@ export default class About extends Component{
               <h3>Skills</h3>
 
               <ul className="skill-bars">
+                <li>
+                  <div className="progress percent85"><span>90%</span></div>
+                  <strong>Python</strong>
+                </li>
+                <li>
+                  <div className="progress percent65"><span>65%</span></div>
+                  <strong>Tensorflow</strong>
+                </li>
+                <li>
+                  <div className="progress percent50"><span>50%</span></div>
+                  <strong>Pytorch</strong>
+                </li>
+
                 <li>
                   <div className="progress percent90"><span>90%</span></div>
                   <strong>HTML5</strong>
@@ -70,13 +83,14 @@ export default class About extends Component{
                   <strong>Node</strong>
                 </li>
                 <li>
+                  <div className="progress percent45"><span>45%</span></div>
+                  <strong>React</strong>
+                </li>
+                <li>
                   <div className="progress percent80"><span>80%</span></div>
                   <strong>Java</strong>
                 </li>
-                <li>
-                  <div className="progress percent85"><span>90%</span></div>
-                  <strong>Python</strong>
-                </li>
+                
                 
               </ul> 	
             </div>
