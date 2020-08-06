@@ -22,15 +22,41 @@ export default class Resume extends Component{
                     <i className="fa fa-file-code-o" />
                   </div>
                   <div className="timeline-header">
-                    <h3>Machine Learning Intern  </h3>
-                    <p>March 2020 - Present</p>
+                    <h3>Chatbot Developer </h3>
+                    <p>June 2020 - July 2020</p>
                   </div>
                   <div className="timeline-content">
-                    <h4>Cloud Counselage</h4>
-                    <p>Currently working on Color Classifier using Tensorflow2.0 as part of training. (Main project begins in June)</p>
+                    <h4>Dew Solutions</h4>
+                    <p>Built a COVID19 survey bot using the Rasa framework that
+                      aids the research and analysis of awareness in society. This
+                      bot collected the responses of the user and saved it in an
+                      excel sheet for data analysis. </p>
+                      <p>Deployed the Bot using DigitalOcean Droplet.</p>
                   </div>
                 </div> 
                
+              </div>  			
+            </div>
+            <div className="col-twelve">
+              <div className="timeline-wrap">
+                <div className="timeline-block">
+                  <div className="timeline-ico">
+                    <i className="fa fa-file-code-o" />
+                  </div>
+                  <div className="timeline-header">
+                    <h3>Machine Learning Intern  </h3>
+                    <p>March 2020 - July 2020</p>
+                  </div>
+                  <div className="timeline-content">
+                    <h4>Cloud Counselage</h4>
+                    <p>Built a recommendation system to successfully extract
+                    domains and events from texts and accordingly
+                    recommend events to the users as per their liking. </p>
+                    <p>Wrote and maintained technical and functional
+                    specifications to document project intentions and
+                    requirements.</p>
+                  </div>
+                </div> 
               </div>  			
             </div>
             <div className="col-twelve">
@@ -45,7 +71,14 @@ export default class Resume extends Component{
                   </div>
                   <div className="timeline-content">
                     <h4>Fr. Conceicao Rodrigues College of Engineering</h4>
-                    <p>Automated the whole process of internship and training placement approval for the college. The project was designed using PHP and MySQL as per the college requirements.</p>
+                    <p>
+                    Developed a portal for teachers and students to automate
+                    training and placement process. 
+                    </p>
+                    <p>
+                      Developed user interfaces with modern JavaScript
+                    frameworks, HTML5 and CSS3 and backend using PHP with a MySQL database.
+                    </p>
                   </div>
                 </div> 
                
