@@ -8,20 +8,24 @@ export default class Portfolio extends Component{
             <div className="col-twelve">
               <h5>Achievements</h5>
               <div className="description-box">
-              <h4>Team Vaayushastra stood 9th in the SAE Aero Design Competition held in The USA.</h4>		     
-              <p>Design an Unmanned Ariel Vehicle to colonise Mars</p>
+              <h4>Best Overall Health Hack 2021, organized by Women in Computers at the Stony Brook University - February 2021</h4>		     
+              {/* <p>Worked with a remote team to develop a mobile application that provides assistance to the Visually Impaired</p> */}
+              </div>
+              <div className="description-box">
+              <h4>Team Vaayushastra stood 9th in the SAE Aero Design Competition held in The USA - March 2020</h4>		     
+              {/* <p>Design an Unmanned Ariel Vehicle to colonise Mars</p> */}
               </div>
               <div className="description-box">
               <h4>Winner of SPIT hackathon - February 2020</h4>		     
-              <p>Malware detection using machine learning</p>
+              {/* <p>Malware detection using machine learning</p> */}
               </div>
               <div className="description-box">
               <h4>First runner up of DMCE hackathon - January 2020</h4>		     
-              <p>Using CBT techniques and AI to diagnose/track/tackle mental health issues</p>
+              {/* <p>Using CBT techniques and AI to diagnose/track/tackle mental health issues</p> */}
             </div>	
             <div className="description-box">
               <h4>Winner of VCET hackathon - December 2020</h4>		     
-              <p>Depression tracking using social media (twitter)</p>
+              {/* <p>Depression tracking using social media (twitter)</p> */}
             </div>
             </div>   		
           </div> 
@@ -34,7 +38,12 @@ export default class Portfolio extends Component{
           </div> 
           <div className="row portfolio-content">
             <div className="col-twelve">
-            
+              <div className="description-box">
+                <h4>HelpVu</h4>	
+                <a href = "https://www.youtube.com/watch?v=a2HpMBLEoFg&feature=emb_title" style={{cursor: 'pointer', color : '#FF0077'}}>Check it out</a>	      
+                <p>An AI-powered narration application that can provide assistance to the visually impaired. It uses Object Detection and OCR techniques along with text-to-speech to do so.</p>	               
+              </div>	
+
               <div className="description-box">
                 <h4>Corona Live Updates Bot</h4>	
                 <a href = "https://t.me/corona_em_bot" style={{cursor: 'pointer', color : '#FF0077'}}>Check it out</a>	      

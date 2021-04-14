@@ -22,6 +22,24 @@ export default class Resume extends Component{
                     <i className="fa fa-file-code-o" />
                   </div>
                   <div className="timeline-header">
+                    <h3>Data Analyst </h3>
+                    <p>August 2020 - October 2020</p>
+                  </div>
+                  <div className="timeline-content">
+                    <h4>KYC Hub</h4>
+                    <p>Contributed to creating a dataset by web-scraping news websites to extract different sections. </p>
+                    <p>Also worked on fine-tuning object detection models to correctly identify different sections on a news website.</p>
+                  </div>
+                </div>            
+              </div>  			
+            </div>
+            <div className="col-twelve">
+              <div className="timeline-wrap">
+                <div className="timeline-block">
+                  <div className="timeline-ico">
+                    <i className="fa fa-file-code-o" />
+                  </div>
+                  <div className="timeline-header">
                     <h3>Chatbot Developer </h3>
                     <p>June 2020 - July 2020</p>
                   </div>
@@ -33,8 +51,7 @@ export default class Resume extends Component{
                       excel sheet for data analysis. </p>
                       <p>Deployed the Bot using DigitalOcean Droplet.</p>
                   </div>
-                </div> 
-               
+                </div>            
               </div>  			
             </div>
             <div className="col-twelve">
@@ -101,8 +118,8 @@ export default class Resume extends Component{
                   </div>
                   <div className="timeline-content">
                     <h4>Fr Conceicao Rodrigues College of Engineering.</h4>
-                    <p>Third Year of Computer Engineering
-                    <br />Current CGPA : 9.7</p>
+                    <p>Fourth Year of Computer Engineering
+                    <br />Current CGPA : 9.76</p>
                   </div>
                 </div>
                 <div className="timeline-block">

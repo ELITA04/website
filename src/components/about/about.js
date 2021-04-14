@@ -46,13 +46,22 @@ export default class About extends Component{
                   <strong>Python</strong>
                 </li>
                 <li>
+                  <div className="progress percent80"><span>85%</span></div>
+                  <strong>Streamlit</strong>
+                </li>
+                <li>
+                  <div className="progress percent75"><span>75%</span></div>
+                  <strong>Pytorch</strong>
+                </li>
+                <li>
                   <div className="progress percent65"><span>65%</span></div>
                   <strong>Tensorflow</strong>
                 </li>
                 <li>
-                  <div className="progress percent50"><span>50%</span></div>
-                  <strong>Pytorch</strong>
+                  <div className="progress percent55"><span>55%</span></div>
+                  <strong>Tableau</strong>
                 </li>
+                
 
                 <li>
                   <div className="progress percent90"><span>90%</span></div>
@@ -83,7 +92,11 @@ export default class About extends Component{
                   <strong>Node</strong>
                 </li>
                 <li>
-                  <div className="progress percent45"><span>45%</span></div>
+                  <div className="progress percent75"><span>75%</span></div>
+                  <strong>React Native</strong>
+                </li>
+                <li>
+                  <div className="progress percent65"><span>65%</span></div>
                   <strong>React</strong>
                 </li>
                 <li>
